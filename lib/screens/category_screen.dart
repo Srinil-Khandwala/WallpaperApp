@@ -42,7 +42,9 @@ class _CategoryWallpapersState extends State<CategoryWallpapers> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        iconTheme: IconThemeData(color: Colors.black),
         title: brandName(),
+        backgroundColor: Colors.white,
         elevation: 0.0,
       ),
       body: SingleChildScrollView(

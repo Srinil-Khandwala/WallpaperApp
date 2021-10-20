@@ -20,6 +20,8 @@ class _FavouritesPageState extends State<FavouritesPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        iconTheme: IconThemeData(color: Colors.black),
+        backgroundColor: Colors.white,
         title: brandName(),
         elevation: 0.0,
       ),

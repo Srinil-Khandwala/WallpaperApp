@@ -19,8 +19,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'WallpaperApp',
       theme: ThemeData(
-        primaryColor: Colors.white,
-      ),
+          // primaryColor: Colors.white,
+
+          ),
       home: Home(),
       initialRoute: WelcomeScreen.id,
       routes: {
